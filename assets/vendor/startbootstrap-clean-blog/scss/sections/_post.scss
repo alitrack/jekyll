@@ -47,3 +47,30 @@
         }
     }
 }
+
+img {
+    width:100%;
+}
+
+.task-dream {
+    float: right;
+    margin-left: 1em;
+    width: 25%;
+    height: 25%;
+}
+
+.task-whygamora {
+    margin-left: 7em;
+    width: 60%;
+    height:80%;
+}
+
+blockquote {
+    max-width: 500px;
+    color: #5c4c40;
+    text-align: center;
+    padding-left: 5px;
+    margin: 0 auto;
+    width: auto;
+    display: table
+}

@@ -1,0 +1,50 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-time_to_think",
+      "appliesTo": "img/posts/first_initiative/time_to_think.jpg",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-thanos",
+      "appliesTo": "img/posts/first_initiative/thanos.gif",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-dream",
+      "appliesTo": "img/posts/first_initiative/dream.jpg",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-dream",
+      "appliesTo": "img/posts/first_initiative/dream.jpg",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-dream",
+      "appliesTo": "img/posts/first_initiative/dream.jpg",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-thanos",
+      "appliesTo": "img/posts/first_initiative/thanos.gif",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-whygamora",
+      "appliesTo": "img/posts/first_initiative/whygamora.jpg",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-whygamora",
+      "appliesTo": "img/posts/first_initiative/whygamora.jpg",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-success",
+      "appliesTo": "img/posts/first_initiative/success.jpg",
+      "type": "launch"
+    }
+  ]
+}
