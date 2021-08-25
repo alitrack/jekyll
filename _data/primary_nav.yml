@@ -4,12 +4,15 @@
 - title: Posts
   link: /posts/
   show_on_mobile: true
-- title: Html Preview
-  link: /htmlpreview/
-  show_on_mobile: false  
-- title: Python Editor
-  link: /thebe/
-  show_on_mobile: false  
+- title: "tools"
+  link: "/tools/"
+  sublinks:
+  - title: Html Preview
+    link: /htmlpreview/
+    show_on_mobile: false  
+  - title: Python Editor
+    link: /thebe/
+    show_on_mobile: false  
 - title: About
   link: /about/
   show_on_mobile: true

@@ -9,13 +9,32 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
   {% for p in site.data.primary_nav -%}
+<!-- https://mycyberuniverse.com/jekyll-bootstrap-dynamic-navigation-highlighting-active-element.html -->
+  {% if p.sublinks %}
+  <li class="dropdown nav-item">
+      <a href="{{ p.link | relative_url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ p.title }} <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+          {% for sublink in p.sublinks %}
+              {% if sublink.title == 'separator' %}
+                  <li role="separator" class="divider"></li>
+              {% else %}
+                  <li>
+                      <a class="nav-link" href="{{ sublink.link | relative_url }}">{{ sublink.title }}</a>
+                  </li>
+              {% endif %}
+          {% endfor %}
+      </ul>
+  </li>
+{% else %} 
   <li class="nav-item" 
     {%- if p.link == '/' -%}
       {% if page.url == p.link %} class="current" {%- endif -%}
     {% else -%}
       {% if page.url contains p.link %} class="current" {%- endif -%}
     {% endif -%}
+
   ><a class="nav-link" href="{{ p.link | relative_url }}">{{ p.title }}</a></li>
+  {% endif %}
   {% endfor -%}
 </ul>
 </div>
