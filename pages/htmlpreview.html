@@ -3,17 +3,16 @@ layout: page
 overview: true
 title: "HTML Preview"
 permalink: /htmlpreview/
+form: true
 ---
 
-<div id="htmlpreview">
+
 	Enter URL of the HTML file to preview:<br />
 	<form id="previewform" onsubmit="location.href='?'+this.file.value;return false">
 		<input type="url" id="file" value="" placeholder="e.g. https://github.com/user/repo/blob/master/index.html"
 			size="60" autofocus>
 		<input type="submit" value="Preview">
 	</form>
-	<br />
-	or prepend to the URL: <br />
-	<code><strong>https://alitrack.github.io/xyz/htmlpreview/?</strong>https://github.com/twbs/bootstrap/blob/gh-pages/2.3.2/index.html</code><br /><br />
 	<script src="{{ 'assets/htmlpreview.js' | relative_url }}"></script>
-</div>
+<hr/>
+<div id="htmlpreviewdiv"></div>
