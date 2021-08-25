@@ -2,7 +2,7 @@ title:              Alitrack ML
 email:              smartanonymousprof13@gmail.com
 description:        Machine Learning
 author:             Steven Lee
-baseurl:            "jekyll"
+baseurl:            "/jekyll"
 url:                "https://alitrack.github.io/jekyll/"
 
 # Social Profiles
