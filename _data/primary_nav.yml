@@ -1,0 +1,18 @@
+- title: Home
+  link: /
+  show_on_mobile: true
+- title: Posts
+  link: /posts/
+  show_on_mobile: true
+- title: Html Preview
+  link: /htmlpreview/
+  show_on_mobile: false  
+- title: Excute Python Code Online
+  link: /thebe/
+  show_on_mobile: false  
+- title: About
+  link: /about/
+  show_on_mobile: true
+- title: Contact
+  link: /contact/
+  show_on_mobile: false
