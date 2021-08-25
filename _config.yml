@@ -1,13 +1,13 @@
-title:              Pursuit of AI
+title:              Alitrack ML
 email:              smartanonymousprof13@gmail.com
-description:        Embark on a journey to success in Artificial Intelligence
-author:             SmartAnonymousProf
-baseurl:            ""
-url:                "https://SmartAnonymousProf.github.io"
+description:        Machine Learning
+author:             Steven Lee
+baseurl:            "jekyll"
+url:                "https://alitrack.github.io/jekyll/"
 
 # Social Profiles
-twitter_username:   
-github_username:  SmartAnonymousProf  
+twitter_username: alitrack
+github_username:  alitrack  
 facebook_username:  
 instagram_username:  
 linkedin_username:
