@@ -12,6 +12,9 @@
     show_on_mobile: false  
   - title: Python Editor
     link: /thebe/
+    show_on_mobile: false
+  - title: SQLite Viewer
+    link: /sqlite-viewer/
     show_on_mobile: false  
 - title: About
   link: /about/
